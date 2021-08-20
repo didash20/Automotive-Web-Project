@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Draft//EN">
+<HTML>
+<HEAD>
+<TITLE>Test</TITLE>
+<STYLE>BODY,TD {MARGIN: 0;PADDING: 0;OVERFLOW: HIDDEN;}TABLE, OBJECT, EMBED{POSITION: RELATIVE;HEIGHT: 100%;WIDTH: 100%;Z-INDEX: 0;TOP: 0;LEFT: 0;BORDER: NONE;}</STYLE>
+</HEAD>
+<BODY > <DIV ID="message"></DIV>
+
+<!-- Change the following lines with the created paragrams from your Remote Front Panel HTML fle-->
+
+<TABLE><TR><TD>
+<OBJECT ID="LabVIEWControl" CLASSID="CLSID:A40B0AD4-B50E-4E58-8A1D-8544233807BB" WIDTH=857 HEIGHT=665 CODEBASE="ftp://ftp.ni.com/support/labview/runtime/windows/2019/LVRTE2019min.exe">
+<PARAM name="LVFPPVINAME" value="Remote Front Panel Test.lvproj/NI-ELVISIII-031807C8/Main.vi">
+<PARAM name="REQCTRL" value=false>
+<EMBED SRC=".LV_FrontPanelProtocol.rpvi190" LVFPPVINAME="Remote Front Panel Test.lvproj/NI-ELVISIII-031807C8/Main.vi" REQCTRL=false TYPE="application/x-labviewrpvi190" WIDTH=857 HEIGHT=665  PLUGINSPAGE="http://digital.ni.com/express.nsf/bycode/exck2m">
+</EMBED>
+</OBJECT>
+</TD></TR></TABLE>
+
+<Script Language="JavaScript">
+var userAgent = navigator.userAgent;
+var versionOffset = userAgent.indexOf("Chrome");
+
+if (versionOffset != -1)
+{
+    var fullVersion = userAgent.substring(versionOffset+7);
+    var majorVersion = parseInt(''+fullVersion,10);
+    if (majorVersion >= 42)
+    {
+	var plugins = navigator.plugins;
+	var hasNIPlugin = false;
+	for (var i = 0; i < plugins.length; i++) {
+		if (plugins[i].name.indexOf("National Instruments") != -1) {
+			hasNIPlugin = true;
+		}
+	}
+	if (hasNIPlugin == false) {
+        	document.getElementById("message").innerHTML = 
+                        '<p><br><strong><em>NI has detected that your ' +
+                        'browser might be blocking a plug-in.  '+
+                        'Visit ni.com/info and enter the following '+
+                        'Info Code for more information: '+
+                        'BlockedPlugin</em></strong><br><br>' +
+                        'We strongly recomend opening this page on Internet ' +
+                        'Explorer, try doing so by your own or through ' +
+                        '<a href="ie'+window.location.href+'">here</a>.' +
+                        '<br>If the link is not working download and install ' +
+                        '<a href="/cdn/ie protocol/ie.reg" download>' +
+                        'this file</a> in your computer to open ' +
+                        'automatically Internet Explorer.</p>';
+		
+		window.location.assign("ie"+window.location.href);
+	}
+    }
+}
+</Script>
+</BODY>
+</HTML>

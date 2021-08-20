@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1C962310C654186DC9DEEFB99944240008395B602130C3190DAA9A3AED56B3E708D20E62FFB73A0E68CB37AF7401F4F61DD1C10A214AD1B32FF9DAE47DFB8ECD" Timestamp="1D6A71EB24020C7" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.3.0.50100" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.3.0.50100" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.3.0.50100" Name="FlexLogger" Version="20.3.0.0" />
+	</SourceModelFeatureSet>
+	<LoggingSpecification xmlns="http://www.ni.com/Lumberjack.Core">
+		<LoggingConfigurationModel Id="d7bdca785aed4580898c8d28d3dec959">
+			<ProcessingElementModelOwner Id="327b61e29e334fc490ffa03e67cbddd7">
+				<TriggeredLoggingProvider Id="312dc67ea46049eaaca86b0e88c9e4a8" ModelTypeId="[string]CBA104E4-2D21-4AC7-915B-D7DCC1243DCE" StartTime="2020-10-20T15:21:19.8511693999999999999859189026008010614532395265996456146240234375-05:00" />
+				<TdmsLoggingProvider DataReductionStrategy="Decimate" Id="f5730edec8e04e9e8b54a9952aca7f41" LogFileBasePath="&quot;C:\\Users\\dgrajale\\Documents\\FlexLogger\\data&quot;" ModelTypeId="[string]59163356-411F-436B-A6B6-82FB1EFB19E1">
+					<UserDefinedMetadata Id="343fe7dcdca34c6c9da1ff90e3abd976">
+						<UserDefinedMetadataItem DataType="String" Id="8ea3c1ec93ba4cf18986cd83ed752785" Name="Operator">
+							<p.Value>dgrajale</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="ff11da5f66574774a72bab6fb65bc573" Name="DUT">
+							<p.Value>""</p.Value>
+						</UserDefinedMetadataItem>
+					</UserDefinedMetadata>
+				</TdmsLoggingProvider>
+			</ProcessingElementModelOwner>
+		</LoggingConfigurationModel>
+	</LoggingSpecification>
+</SourceFile>

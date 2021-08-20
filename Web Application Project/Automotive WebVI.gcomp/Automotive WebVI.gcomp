@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4CC482284B767EE58BC26EC9F868D4D506AAAFDB23A77FB052A01F4EEBF8DB2173A57F41F42B5EAC90F82A516A0F3BAEEF9FF9BC2897312BF1A7B39670F60A41" Timestamp="1D6B14CC5502EEE" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="614a421c2178474e8dfef95f059ca914" RootNamespaceId="49015679f4144dbfb5cad15ffb7faa09" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2236b762372246b9a9a3033b8a519618" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="f43018ad39354b7398b282d4fe4ffd4d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="6e0d01c2b66947d7a1c8c0372e482fd8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="674b5ac3dce3446e94163a389085549d" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="124a0a61015c4f7fbdf7363d01e398d7" Name="Configuration1">
+			<CompilerSymbolTable Id="5caa83196cdb434d9868aacade358e27" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="975006b992764dba93c53cb605f32548" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="b2cbd9cc4f8a4196abba6a34bafd8c1e" Id="df34f44d69844ed791a2c8a3fb14023e" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7a24e0ea93864fc4a3d8773aa79d31d7" Id="18be2f5123c941a3822d191136494cda" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="ab547d574c854d9898815798109018f6" Id="dc98012b98444d82ab23ffbcec16e791" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="424833dcc534449984f715500898d654" Id="34433c04cc1d43d48797e30c335f8964" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4174b1f4c20a45fe8aea910dcf8f6324" Id="381665e32e5d427c912bdfb99cc39101" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="593288a3b0c84799b37a7e129d059730" Id="22d056e0e5fe40d7a5a81fff4f5c4d13" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="c077a7b33b0840a5a849228b71a1e6ca" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="c3e047390b294f588985e9e3388e7125" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="d0a393b8a48c48eeab1e723397646b17" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="49015679f4144dbfb5cad15ffb7faa09" Name="Automotive WebVI">
+				<SourceFileReference Id="b2cbd9cc4f8a4196abba6a34bafd8c1e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="79722c0ab0cb49cdb3a8935a79927c05" Name="Images">
+					<FileReference Bindings=".png" Id="ab547d574c854d9898815798109018f6" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Black Square.png" StoragePath="Images\Black Square.png" />
+					<FileReference Bindings=".png" Id="424833dcc534449984f715500898d654" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Car Dashboard off.png" StoragePath="Images\Car Dashboard off.png" />
+					<FileReference Bindings=".png" Id="4174b1f4c20a45fe8aea910dcf8f6324" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Car Dashboard on.png" StoragePath="Images\Car Dashboard on.png" />
+					<FileReference Bindings=".png" Id="593288a3b0c84799b37a7e129d059730" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Car Dashboard.png" StoragePath="Images\Car Dashboard.png" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="585a8b984c79405ea60b75adb2213186" Name="Content">
+					<FileReference Bindings=".css" Id="7a24e0ea93864fc4a3d8773aa79d31d7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="style.css" StoragePath="Content\style.css" />
+				</NameScopingEnvoy>
+				<SourceFileReference Id="1387d95dd0b3464f949446512dcdaffe" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpolate.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpolate.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="65437e99fa5345e2b2ef0acd6f4d5615" Name="Automotive WebVI.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="124a0a61015c4f7fbdf7363d01e398d7" Id="e9413be61b9a4c46bb5d07fb7df689a2" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

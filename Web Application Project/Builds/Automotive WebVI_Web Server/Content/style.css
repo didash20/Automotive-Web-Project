@@ -1,0 +1,48 @@
+ni-front-panel {
+    background-image: url("../images/Car Dashboard off.png");
+    background-color: #000000;
+    box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.75);
+}
+
+jqx-gauge .jqx-needle {
+    width: 10px;
+    height: 110px;
+    fill: red;
+}
+
+jqx-gauge .jqx-needle-central-circle {
+    fill: red
+}
+
+jqx-gauge .jqx-label {
+    fill: white
+}
+
+jqx-gauge .jqx-tick {
+    stroke: white;
+    stroke-width: 1px;
+    width: 15px;
+    pointer-events: none
+}
+
+jqx-gauge .jqx-tick-minor {
+    width: 5px
+}
+
+
+jqx-numeric-text-box {
+  
+    --ni-border: none;
+    
+    --ni-foreground-color: white !important;
+    
+    --ni-indicator-background-color: transparent;
+    
+    --ni-control-background-color: transparent;
+
+}
+
+            
+jqx-slider {
+    --ni-foreground-color: white !important;
+}
